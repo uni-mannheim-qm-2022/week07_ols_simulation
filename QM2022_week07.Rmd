@@ -175,7 +175,7 @@ mfx_cat <- mfx_lm(b_cat, z_vals_cat)
 
 ## Calculate standard errors of estimated marginal effects
 
-Lastly, we also want to calculate the standard errors for our estimated marginal effects of $x$. Per the lecture slides (Week 06, slide 27), we know the formula is 
+Lastly, we also want to calculate the standard errors for our estimated marginal effects of $x$. Per the lecture slides (Week 06, slide 26), we know the formula is 
 
 $$
 \hat{\sigma}_{\frac{\partial y}{\partial x}} = \sqrt{\text{var}(\hat{\beta_2}) + z^2 \text{var}(\hat{\beta_4}) + 2 z \text{cov}(\hat{\beta_2}, \hat{\beta_4})}
